@@ -9,6 +9,6 @@
     <Import_RootNamespace>ClimbRecordingApp</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="$(MSBuildThisFileDirectory)ReadMe.md" />
+    <None Include="$(MSBuildThisFileDirectory)README.md" />
   </ItemGroup>
 </Project>
