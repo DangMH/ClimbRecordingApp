@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "ClimbRecordingApp", "ClimbRecordingApp\ClimbRecordingApp.shproj", "{CE4F689E-44EF-463F-90D7-2442DB460C5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClimbRecordingApp.Android", "ClimbRecordingApp.Android\ClimbRecordingApp.Android.csproj", "{771316D1-D9BD-4F45-B6FC-39C49B34CF19}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		ClimbRecordingApp\ClimbRecordingApp.projitems*{771316d1-d9bd-4f45-b6fc-39c49b34cf19}*SharedItemsImports = 4
+		ClimbRecordingApp\ClimbRecordingApp.projitems*{ce4f689e-44ef-463f-90d7-2442db460c5f}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{771316D1-D9BD-4F45-B6FC-39C49B34CF19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{771316D1-D9BD-4F45-B6FC-39C49B34CF19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{771316D1-D9BD-4F45-B6FC-39C49B34CF19}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{771316D1-D9BD-4F45-B6FC-39C49B34CF19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{771316D1-D9BD-4F45-B6FC-39C49B34CF19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{771316D1-D9BD-4F45-B6FC-39C49B34CF19}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
