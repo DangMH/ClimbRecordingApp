@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ClimbRecordingApp.BusinessLayer
 {
-    class YosemiteDecimalSystemGrade : RopeGrade
+    public sealed class YDSGrade : RopeGrade
     {
     }
 }

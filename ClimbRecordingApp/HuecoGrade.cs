@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ClimbRecordingApp.BusinessLayer
 {
-    public class HuecoGrade : BoulderingGrade
+    public sealed class HuecoGrade : BoulderingGrade
     {
     }
 }

@@ -12,22 +12,17 @@
     <None Include="$(MSBuildThisFileDirectory)README.md" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="$(MSBuildThisFileDirectory)BoulderingGrade.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ClimberStats.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)ClimbingGrade.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ClimbingRoute.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ClimbingRouteRepository.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ClimbingScore.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ClimbingTag.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ClimbingTagMap.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Contracts\IBusinessEntity.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)FontainebleauGrade.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)FrenchGrade.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)HuecoGrade.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)RopeGrade.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ClimbingRouteDatabase.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ClimbRecordingApp.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ClimbingGradeFormat.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)SQLite.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)SQLiteAsync.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)YosemiteDecimalSystemGrade.cs" />
   </ItemGroup>
 </Project>

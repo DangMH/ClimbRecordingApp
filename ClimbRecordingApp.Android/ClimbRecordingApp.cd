@@ -7,72 +7,28 @@
       <FileName>D:\Users\Michael\Documents\Visual Studio 2013\Projects\ClimbRecordingApp\ClimbRecordingApp\ClimbingRouteDatabase.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="ClimbRecordingApp.BusinessLayer.ClimbRecordingApp" Collapsed="true">
-    <Position X="8.75" Y="4.25" Width="1.75" />
+  <Class Name="ClimbRecordingApp.BusinessLayer.ClimbRecordingApp">
+    <Position X="10.5" Y="0.5" Width="2.75" />
+    <Members>
+      <Field Name="climberStats" Hidden="true" />
+      <Field Name="formattedGradeToUniversalScore" Hidden="true" />
+      <Field Name="universalScoreToFormattedGrade" Hidden="true" />
+    </Members>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAQAASEAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
       <FileName>D:\Users\Michael\Documents\Visual Studio 2013\Projects\ClimbRecordingApp\ClimbRecordingApp\ClimbRecordingApp.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="ClimbRecordingApp.BusinessLayer.ClimbingRoute" Collapsed="true" BaseTypeListCollapsed="true">
-    <Position X="5.5" Y="5.25" Width="1.5" />
+  <Class Name="ClimbRecordingApp.BusinessLayer.ClimbingRoute" BaseTypeListCollapsed="true">
+    <Position X="5.5" Y="2" Width="2" />
     <Members>
       <Method Name="ClimbingRoute" Hidden="true" />
     </Members>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>BAAAAgAAgAAAgAAAAABAAAAAIAAAABAAAAAAAAAAAUE=</HashCode>
       <FileName>D:\Users\Michael\Documents\Visual Studio 2013\Projects\ClimbRecordingApp\ClimbRecordingApp\ClimbingRoute.cs</FileName>
     </TypeIdentifier>
-    <Lollipop Position="0.2" Collapsed="true" />
-  </Class>
-  <Class Name="ClimbRecordingApp.BusinessLayer.ClimbingGrade" Collapsed="true">
-    <Position X="8.75" Y="0.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>D:\Users\Michael\Documents\Visual Studio 2013\Projects\ClimbRecordingApp\ClimbRecordingApp\ClimbingGrade.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="ClimbRecordingApp.BusinessLayer.HuecoGrade" Collapsed="true">
-    <Position X="5.5" Y="3" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>D:\Users\Michael\Documents\Visual Studio 2013\Projects\ClimbRecordingApp\ClimbRecordingApp\HuecoGrade.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="ClimbRecordingApp.BusinessLayer.FontainebleauGrade" Collapsed="true">
-    <Position X="7.5" Y="3" Width="1.75" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>D:\Users\Michael\Documents\Visual Studio 2013\Projects\ClimbRecordingApp\ClimbRecordingApp\FontainebleauGrade.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="ClimbRecordingApp.BusinessLayer.BoulderingGrade" Collapsed="true">
-    <Position X="6.5" Y="1.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>D:\Users\Michael\Documents\Visual Studio 2013\Projects\ClimbRecordingApp\ClimbRecordingApp\BoulderingGrade.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="ClimbRecordingApp.BusinessLayer.RopeGrade" Collapsed="true">
-    <Position X="11.5" Y="1.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>D:\Users\Michael\Documents\Visual Studio 2013\Projects\ClimbRecordingApp\ClimbRecordingApp\RopeGrade.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="ClimbRecordingApp.BusinessLayer.YosemiteDecimalSystemGrade" Collapsed="true">
-    <Position X="9.75" Y="3" Width="2.25" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>D:\Users\Michael\Documents\Visual Studio 2013\Projects\ClimbRecordingApp\ClimbRecordingApp\YosemiteDecimalSystemGrade.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="ClimbRecordingApp.BusinessLayer.FrenchGrade" Collapsed="true">
-    <Position X="12.5" Y="3" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>D:\Users\Michael\Documents\Visual Studio 2013\Projects\ClimbRecordingApp\ClimbRecordingApp\FrenchGrade.cs</FileName>
-    </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="ClimbRecordingApp.DataAccessLayer.ClimbingRouteRepository">
     <Position X="3" Y="0.5" Width="2" />
@@ -87,8 +43,8 @@
       <FileName>D:\Users\Michael\Documents\Visual Studio 2013\Projects\ClimbRecordingApp\ClimbRecordingApp\ClimbingRouteRepository.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="ClimbRecordingApp.BusinessLayer.ClimbingTag" Collapsed="true">
-    <Position X="5.5" Y="7.25" Width="1.5" />
+  <Class Name="ClimbRecordingApp.BusinessLayer.ClimbingTag">
+    <Position X="8" Y="2.5" Width="2" />
     <Members>
       <Method Name="ClimbingTag" Hidden="true" />
     </Members>
@@ -98,8 +54,8 @@
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="ClimbRecordingApp.BusinessLayer.ClimbingTagMap" Collapsed="true">
-    <Position X="5.5" Y="6.25" Width="1.5" />
+  <Class Name="ClimbRecordingApp.BusinessLayer.ClimbingTagMap">
+    <Position X="8" Y="0.5" Width="2" />
     <Members>
       <Method Name="ClimbingTagMap" Hidden="true" />
     </Members>
@@ -109,26 +65,31 @@
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="ClimbRecordingApp.BusinessLayer.ClimberStats" Collapsed="true">
-    <Position X="8.75" Y="5.25" Width="1.5" />
+  <Class Name="ClimbRecordingApp.BusinessLayer.ClimberStats">
+    <Position X="10.5" Y="2.5" Width="2.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>D:\Users\Michael\Documents\Visual Studio 2013\Projects\ClimbRecordingApp\ClimbRecordingApp\ClimberStats.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Interface Name="ClimbRecordingApp.BusinessLayer.Contracts.IBusinessEntity" Collapsed="true">
-    <Position X="5.5" Y="4.25" Width="1.5" />
+  <Class Name="ClimbRecordingApp.BusinessLayer.ClimbingScore">
+    <Position X="8" Y="4.5" Width="2" />
+    <Members>
+      <Method Name="ClimbingScore" Hidden="true" />
+      <Field Name="MAX_GRADE_FORMAT_LENGTH" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>IAAACAAAAACAgAAAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>D:\Users\Michael\Documents\Visual Studio 2013\Projects\ClimbRecordingApp\ClimbRecordingApp\ClimbingScore.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="ClimbRecordingApp.BusinessLayer.Contracts.IBusinessEntity">
+    <Position X="5.5" Y="0.5" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>D:\Users\Michael\Documents\Visual Studio 2013\Projects\ClimbRecordingApp\ClimbRecordingApp\Contracts\IBusinessEntity.cs</FileName>
     </TypeIdentifier>
   </Interface>
-  <Enum Name="ClimbRecordingApp.BusinessLayer.ClimbingRouteType" Collapsed="true">
-    <Position X="8.75" Y="6.25" Width="1.75" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>D:\Users\Michael\Documents\Visual Studio 2013\Projects\ClimbRecordingApp\ClimbRecordingApp\ClimberStats.cs</FileName>
-    </TypeIdentifier>
-  </Enum>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>

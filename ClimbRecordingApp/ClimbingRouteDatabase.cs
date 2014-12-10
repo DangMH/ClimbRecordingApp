@@ -27,6 +27,7 @@ namespace ClimbRecordingApp.DataLayer
             CreateTable<ClimbingRoute>();
             CreateTable<ClimbingTag>();
             CreateTable<ClimbingTagMap>();
+            CreateTable<ClimbingScore>();
         }
 
         /// <summary>
